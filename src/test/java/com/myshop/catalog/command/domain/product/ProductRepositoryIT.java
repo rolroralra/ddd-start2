@@ -35,7 +35,7 @@ class ProductRepositoryIT {
     void save() {
         List<Image> images = new ArrayList<>();
         images.add(new ExternalImage("https://extern.image.com/some-img.png"));
-        images.add(new InternalImage("internal-img.png"));
+        images.add(new InternalImage("internal-value-collection.png"));
         Product product = new Product(
                 ProductId.of("PRD-01"),
                 "제품-01",
