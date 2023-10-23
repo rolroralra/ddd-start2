@@ -91,9 +91,9 @@ public class RecommendationSystemClient implements ProductRecommendationService 
 
 # BoundedContext 간 관계
 
-![img_1.png](img_1.png)
+![BoundedContext_Downstream_Upstream.png](images/chapter9/BoundedContext_Downstream_Upstream.png)
 
-![img.png](img.png)
+![BoundedContextOHS.png](images/chapter9/BoundedContextOHS.png)
 
 # 컨텍스트 맵
 - 개별 BoundedContext에 매몰되면 전체를 보지 못할 때가 있다.
@@ -108,4 +108,4 @@ public class RecommendationSystemClient implements ProductRecommendationService 
 - 외부 시스템의 도메인 모델이 특정 도메인 모델을 침범하지 않도록 막아주는 역할을 하는 계층
   - 도메인 내부에 자체적으로 외부 시스템의 서비스를 위한 인터페이스를 정의하는 것
 
-![img_2.png](img_2.png)
+![OHS_ACL.png](images/chapter9/OHS_ACL.png)
