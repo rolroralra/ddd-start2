@@ -8,8 +8,8 @@ DDD START!의 재출간판인 [도메인 주도 개발 시작하기](https://www
 - [3장. Aggregate](docs/Aggregate.md)
 - [4장. Repository](docs/Repository.md)
 - 5장. Spring Data JPA를 이용한 조회 기능 : TODO
-- [6장. 응용 서비스와 표현 영역](docs/Application_Presentation.md) : TODO
-- [7장. 도메인 서비스](docs/DomainService.md) : TODO
+- [6장. 응용 서비스와 표현 영역](docs/Application_Presentation.md)
+- [7장. 도메인 서비스](docs/DomainService.md)
 - [8장. Aggregate 트랜잭션 관리](docs/AggregateTransaction.md) : TODO
 - [9장. 도메인 모델과 Bounded Context](docs/BoundedContext.md)
 - [10장. 이벤트](docs/Event.md)
